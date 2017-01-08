@@ -1,0 +1,95 @@
+/*
+
+Text emphasis: #bb401f;
+Text normal: #ff5025;
+
+Text description header: #523223;
+Text description : #977979;
+
+Text underline: #fdeaf0;
+
+Gradient left: #df1d76;
+Gradient right: #ff5025;
+
+Recommendation Header: #fdeaf0;
+
+*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+header {
+  padding: 25px 5px;
+}
+
+section {
+  padding: 25px 150px;
+}
+
+.store-logo {
+  width: 5%;
+  border: solid 2px black;
+  display: inline-block;
+}
+
+.store-logo > img {
+  width: 100%;
+}
+
+.store-categories {
+  display: inline-block;
+}
+
+.store-categories > div {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.right-nav {
+  border: solid 2px yellow;
+  display: inline-block;
+}
+
+.right-nav > div {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.hero-area {
+  background: red;
+  background: -webkit-linear-gradient(left, #df1d76 , #ff5025); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #df1d76, #ff5025); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #df1d76, #ff5025); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #df1d76 , #ff5025); /* Standard syntax */
+}
+
+.callout-image {
+  display: inline-block;
+  border: solid 2px blue;
+  width: 45%;
+}
+
+.callout-image > img {
+  width: 100%;
+  display: inline-block;
+}
+
+.product-content-wrapper {
+  border: solid 2px black;
+  display: inline-block;
+  width: 55%;
+}
+
+
+/* Recommendations */
+
+.product-tile {
+  display: inline-block;
+  width: 33%;
+}
+
+.product-tile > img {
+  width: 100%;
+}
