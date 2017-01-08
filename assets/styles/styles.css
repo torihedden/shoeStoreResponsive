@@ -6,6 +6,8 @@ Text normal: #ff5025;
 Text description header: #523223;
 Text description : #977979;
 
+Text pink: #ff9391;
+
 Text underline: #fdeaf0;
 
 Gradient left: #df1d76;
@@ -22,6 +24,11 @@ body {
 
 header {
   padding: 25px 5px;
+
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 section {
@@ -40,21 +47,30 @@ section {
 
 .store-categories {
   display: inline-block;
+  color: #ff5025;
+  text-transform: uppercase;
 }
 
 .store-categories > div {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 
 .right-nav {
   border: solid 2px yellow;
   display: inline-block;
+
+  color: #ff9391;
+
 }
 
 .right-nav > div {
   display: inline-block;
   padding: 5px 15px;
+}
+
+.featured-product {
+  margin-top: 150px;
 }
 
 .hero-area {
