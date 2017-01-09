@@ -17,18 +17,24 @@ Recommendation Header: #fdeaf0;
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
 }
 
 header {
-  padding: 25px 5px;
+  padding: 25px 10px;
 
   background: white;
   position: fixed;
   top: 0;
   left: 0;
+
+  width: 100vw;
 }
 
 section {
@@ -37,7 +43,6 @@ section {
 
 .store-logo {
   width: 5%;
-  border: solid 2px black;
   display: inline-block;
 }
 
@@ -57,11 +62,11 @@ section {
 }
 
 .right-nav {
-  border: solid 2px yellow;
   display: inline-block;
 
   color: #ff9391;
 
+  float: right;
 }
 
 .right-nav > div {
@@ -70,7 +75,7 @@ section {
 }
 
 .featured-product {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .hero-area {
@@ -84,7 +89,7 @@ section {
 .callout-image {
   display: inline-block;
   border: solid 2px blue;
-  width: 45%;
+  width: 50%;
 }
 
 .callout-image > img {
@@ -92,20 +97,88 @@ section {
   display: inline-block;
 }
 
+.hero-area > .product-content-wrapper {
+  color: white;
+}
+
 .product-content-wrapper {
   border: solid 2px black;
   display: inline-block;
-  width: 55%;
+  width: 30%;
+  margin: 0 5%;
+}
+
+.product-content-wrapper > .product-title {
+  padding-bottom: 20px;
 }
 
 
+
+.product-title {
+  font-size: 40px;
+  padding: 2px 0;
+}
+
+.product-collection, .product-reviews {
+  color: #523223;
+}
+
+.product-reviews {
+  text-decoration: underline;
+}
+
+.product-purchase-button {
+  background: white;
+  color: #ff5025;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.product-details-header {
+  border-bottom: solid 1px #ff9391;
+}
+
 /* Recommendations */
+
+.recommendations-banner {
+  padding: 15px 0;
+  color: #523223;
+  background: #fdeaf0;
+  font-size: 20px;
+  text-align: center;
+}
 
 .product-tile {
   display: inline-block;
   width: 33%;
+  color: white;
+  padding: 0 2%;
 }
 
 .product-tile > img {
   width: 100%;
+}
+
+.product-tile > .product-name {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.product-tile > .product-price {
+  font-size: 20px;
+  display: inline-block;
+}
+
+sup {
+  font-size: xx-small;
+  vertical-align: super;
+}
+
+footer {
+  padding: 25px 10px;
+}
+
+.legal {
+  float: right;
 }
